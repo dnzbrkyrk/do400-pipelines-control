@@ -1,4 +1,4 @@
-peline {
+pipeline {
     agent {
         node {
             label 'nodejs'
@@ -14,6 +14,6 @@ peline {
             steps {
                 sh 'node ./frontend/test.js'
             }
-        } 
+	} 
     }
 }
